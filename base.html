@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/alternate-style.css">
+</head>
+<body>
+
+	<div class="container">
+		<section class="top-overlay">
+				<div class="what"><span>?</span></div>
+
+		<div class="question-status">
+			<div id="parentdiv">
+				<h1>1</h1>
+				<div id="qNumber" class="qNumber"></div>
+			</div>
+		</div>
+
+		<div class="score-panel">
+			<div class="score">
+				<h3>Score</h3>
+				<div class="total-correct">0</div>
+				<hr />
+				<div class="total-answered">0</div>
+			</div>
+		</div>
+		</section>
+
+	<section class="overlay" id="modal">
+		<div class="overlay-container">
+			<div class="heading">
+				<h3>How to play</h3>
+			</div>
+				<div class="content">
+					<p>This is a "Who wants to be a Millionaire" style quiz game, focusing on the topic of NFL football.</p>
+					<p>1. There will be ten questions of varying difficulty. You will select the best answer from a list of four to move onto the next question.</p>
+					<p>2. You have two lifelines. You can only use them one time each. The 50/50 cuts the available answers in half. A hint will be provided when it is selected. You may not use both on the same question. </p>
+					<p>3. Simply <strong>double click</strong> the answer and you will receive feedback on whether it's correct or incorrect.</p>
+					<p>4. You must get all the questions correct to win! When answered incorrectly the game will start over. </p>
+				</div>
+
+				<div class="footer">
+					<p>So, Are you ready?</p>
+					<div class="button">Go!</div>
+				</div>
+		</div>
+	</section>	
+
+		<section class="q-and-a">
+			<div class="question-container">
+				<p>Question placeholder</p>
+			</div>
+
+			<div id="quiz">
+				<div class="row">
+					<div id="option-1" class="option" data-n="0">Answer A</div>
+					<div id ="option-2" class="option" data-n="1">Answer B</div>
+				</div>
+				<div class="row">
+					<div id="option-3" class="option" data-n="2">Answer C</div>
+					<div id="option-4" class="option" data-n="3">Answer D</div>
+				</div>
+			</div>
+		
+			<div class="feedback-container">
+				<div class="feedback">Question/Answer Feedback</div>
+
+				<div class="btn-container">
+					<div class="next"><span>Next</span></div>
+				</div>
+			</div>
+		</section>
+	</div>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+</body>
+</html>
